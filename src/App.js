@@ -4,30 +4,30 @@ import "./App.css"
 export default function App() {
 	const questions = [
 		{
-			questionText: 'What is the capital of France?',
+			questionText: 'Which husband-wife duo starred in 2018’s horror film A Quiet Place?',
 			answerOptions: [
-				{ answerText: 'New York', isCorrect: false },
-				{ answerText: 'London', isCorrect: false },
-				{ answerText: 'Paris', isCorrect: true },
-				{ answerText: 'Dublin', isCorrect: false },
+				{ answerText: 'Meg Ryan and Tom Hanks', isCorrect: false },
+				{ answerText: 'Jennifer Lawrence and Bradley Cooper.', isCorrect: false },
+				{ answerText: 'Emily Blunt and John Krasinski', isCorrect: true },
+				{ answerText: 'Emma Stone and Ryan Gosling', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Who is CEO of Tesla?',
+			questionText: 'Which colour pill does Neo swallow in The Matrix?',
 			answerOptions: [
-				{ answerText: 'Jeff Bezos', isCorrect: false },
-				{ answerText: 'Elon Musk', isCorrect: true },
-				{ answerText: 'Bill Gates', isCorrect: false },
-				{ answerText: 'Tony Stark', isCorrect: false },
+				{ answerText: 'Blue', isCorrect: false },
+				{ answerText: 'Red', isCorrect: true },
+				{ answerText: 'Green', isCorrect: false },
+				{ answerText: 'Yellow', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'The iPhone was created by which company?',
+			questionText: 'Name the Coffee shop in US sitcom Friends',
 			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
+				{ answerText: 'Central Perk', isCorrect: true },
+				{ answerText: 'Eastern Cafe', isCorrect: false },
+				{ answerText: 'Coffee Hub', isCorrect: false },
+				{ answerText: 'Western Perk', isCorrect: false },
 			],
 		},
 		{
